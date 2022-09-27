@@ -7,7 +7,9 @@ The model architecture involved Convoluted Neural Networks (CNNs)
 Gained sufficient exposure working with TensorFlow, Keras, InceptionV3, and Medical Image Processing.
 
 I tried different CNN Architectures and different optimizers for getting the highest possible accuracy.
-1)First I tried on a simple 3 layered Architecture which I built myself, and got
+1)First I tried on a simple 3 layered Architecture which I built myself, and got a baseline accuracy score.
+2)Then I used VGG16 model architecture which gave accuracy score in comparison with the above model, which was not expected. I expected a better accuracy from VGG16 model.
+3)I then used hyperparameter tuning using Keras tuner, tried different number of filters in each layer, different sizes of kernel, and different learning rates of adam optimizer
 
 
 https://colab.research.google.com/drive/1CHTXsBNTL_Bxhl7btrKKuHqNzGMVrBj-
