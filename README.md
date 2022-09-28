@@ -5,6 +5,9 @@ Model trained on fundus images of patients with diabetes to detect DR, and grade
 mild Non-Proliferative DR (NPDR), moderate NPDR, severe NPDR or Proliferative DR
 The model architecture involved Convoluted Neural Networks (CNNs)
 Gained sufficient exposure working with TensorFlow, Keras, InceptionV3, and Medical Image Processing.
+The dataset used for this research purpose is the EYEPACS Dataset."https://www.kaggle.com/competitions/diabetic-retinopathy-detection/data" 
+It is derived from the original paper "https://www.nature.com/articles/s41467-021-23458-5#MOESM1".
+This dataset contains about 35000 fundus images, while the original paper's model was trained on about 466,000 images, and tested on about 200,000 images.
 
 I tried different CNN Architectures and different optimizers for getting the highest possible accuracy.
 1)First I tried on a simple 3 layered Architecture which I built myself, and got a baseline accuracy score.
