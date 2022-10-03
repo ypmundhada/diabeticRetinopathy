@@ -21,6 +21,6 @@ A major issue which I noticed with the different models I used was that both the
  2: 1.310223953261928,
  3: 7.6022598870056495,
  4: 10.117293233082707}
-The result was slightly improved to 0.7394 accuracy and 0.7356 val_accuracy. This concludes that the highest achievable accuracy is around 0.74.
+The result was slightly improved to 0.7394 accuracy and 0.7356 val_accuracy.
 
 
