@@ -15,7 +15,12 @@ I tried different CNN Architectures and different optimizers for getting the hig
 3)I then used hyperparameter tuning using Keras tuner, tried different number of filters in each layer, different sizes of kernel, and different learning rates of adam optimizer. The best model was clearly overfitting the training data after 25 epochs, as train accuracy reached over 0.99, while validation accuracy declined to below 0.70. I will use regularization techniques to avoid overfitting.
 4)Then I used the InceptionV3 model architecture, pretrained over the ImageNet dataset. This model used RMSProp optimizer with learning rate as 0.001.
 
-A major issue which I noticed with the different models I used was that both the accuracy and val_accuracy would remain around the same range of 73%. Even after 20 epochs the accuracy would not change at all. It wont fluctuate but it wont increase either. So, I tried using different techniques to cure for the same. I tried reducing the learning rate, which did not help. Then I tried to reduce the complexity of the model along with using regularizers, which again did not help a lot. The accuracy would still remain constant at the same level even though it increased a bit. I also tried correcting for class imbalance in the dataset by assigining class weights.
-
+A major issue which I noticed with the different models I used was that both the accuracy and val_accuracy would remain around the same range of 73%. Even after 20 epochs the accuracy would not change at all. It wont fluctuate but it wont increase either. So, I tried using different techniques to cure for the same. I tried reducing the learning rate, which did not help. Then I tried to reduce the complexity of the model along with using regularizers, which again did not help a lot. The accuracy would still remain constant at the same level even though it increased a bit. I also tried correcting for class imbalance in the dataset by assigining class weights. The distribution of images was as follows: {0:6150,1:588,2:1283,3:221,4:166}. After using scikit-learn class_weight the weight distribution was: 
+{0: 0.2734959349593496,
+ 1: 2.856900212314225,
+ 2: 1.310223953261928,
+ 3: 7.6022598870056495,
+ 4: 10.117293233082707}
+The result was slightly improved to 0.7394 accuracy and 0.7356 val_accuracy. This concludes that the highest achievable accuracy is around 0.74.
 
 
