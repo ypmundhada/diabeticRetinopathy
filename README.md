@@ -23,6 +23,6 @@ A major issue which I noticed with the different models I used was that both the
  4: 10.117293233082707}
 The result was slightly improved to 0.7394 accuracy and 0.7356 val_accuracy.
 
-Then I used Transfer learning techniques and used the VGG16 model trained on ImageNet dataset. This gave the best validation accuracy in comparison to all the previous literatures available on this particular dataset. This model gave an accuracy of 0.75 on training set and an accuracy 1.00 on testing dataset. It had an auc of 0.9014 on training set and an auc of 1.00 on testing set.
+
 
 
