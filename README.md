@@ -23,6 +23,11 @@ A major issue which I noticed with the different models I used was that both the
  4: 10.117293233082707}
 The result was slightly improved to 0.7394 accuracy and 0.7356 val_accuracy.
 
+Then Different Transfer Learning Techniques were used with models like VGG16, InceptionV3, ResNet50. 
+ResNet50 gave an accuracy of 0.7113, validation accuracy of 0.75375. It gave an auc of 0.8838, and validation auc of 0.8992.
+VGG16 model gave an accuracy of 0.7513 and validation accuracy of 0.74437. It gave an auc of 0.8986 and validation auc of 0.9027.
+InceptionV3 gave an accuracy of 0.7436 and validation accuracy of 0.7550. It gave an auc of 0.8942 and valitaion auc of 0.8988.
+
 
 
 
