@@ -28,6 +28,7 @@ ResNet50 gave an accuracy of 0.7113, validation accuracy of 0.75375. It gave an 
 VGG16 model gave an accuracy of 0.7513 and validation accuracy of 0.74437. It gave an auc of 0.8986 and validation auc of 0.9027.
 InceptionV3 gave an accuracy of 0.7436 and validation accuracy of 0.7550. It gave an auc of 0.8942 and valitaion auc of 0.8988.
 
-
+The best model was tested on a completely new set of images from a clinical center in India. It had about 3000 images including images of left and right eyes of diabetic patients. It gave an accuracy of 82% on the testing datasets. This proves that the model works well for people with different ethnicities, different regions,etc.
+The training images were from a clinical center in China. The model works well across geographical boundaries, and can be used to test and grade diabetic retinoapthy for patients across the globe.
 
 
